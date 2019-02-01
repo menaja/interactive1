@@ -1,0 +1,8 @@
+body {
+  background: #FB9678;
+  /* The above is called a hex code.
+     There are two other ways to do colors in CSS: rgb and common names
+     Find "Digital Color Meter" on your computer to explore more */
+  color: #83BE58;
+  font-size: 20px;
+}
