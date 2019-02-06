@@ -1,0 +1,43 @@
+
+/* reset styles */
+
+* { 
+   margin: 0px;
+  padding: 0px;
+ /* border: 0px solid black;
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;*/
+  
+}
+
+/* begin styles */
+
+body {
+  color: red;
+  background: pink;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+}
+ 
+#container{
+border: 0px solid black;
+/*  background-color: lightblue;*/
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+}
+
+h1{
+
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+} 
+p{font-family: Futura,Trebuchet MS,Arial,sans-serif; }
+
+
+
+
+
