@@ -38,6 +38,7 @@ body {
         position: absolute;
         bottom: 175px;
         left: 0px;
+        transition: all 500ms ease;
 }
 
 #rectangle2 {
@@ -65,5 +66,23 @@ body {
         position: absolute;
         bottom: 55px;
         right: 0px;
+
+        transition: all 600ms ease;
 }
 
+
+#canvas:hover #rectangle4 {
+        background: orange;
+}
+#canvas:hover #rectangle1 {
+        background: orange;
+}
+#canvas:hover #rectangle2 {
+        background: orange;
+}
+#canvas:hover #rectangle3 {
+        background: orange;
+}
+#canvas:hover #circle {
+        background:orange;
+}
