@@ -16,9 +16,11 @@
 /* begin styles */
 
 body {
-  color: red;
-  background: pink;
+  color: black;
+  background-image: url("tiger.jpg");
   font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+  font-weight: bolder;
+  text-align: center;
 }
  
 #container{
@@ -34,8 +36,12 @@ border: 0px solid black;
 h1{
 
 	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+  font-size: 100px;
 } 
-p{font-family: Futura,Trebuchet MS,Arial,sans-serif; }
+p{font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  }
+
+  
 
 
 
