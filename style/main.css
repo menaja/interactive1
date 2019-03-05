@@ -17,7 +17,6 @@
 
 body {
   color: black;
-  background-image: url("tiger.jpg");
   font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
   font-weight: bolder;
   text-align: center;
@@ -29,17 +28,63 @@ border: 0px solid black;
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
-  padding-left: 80px;
+  padding-left: 600px;
 
 }
 
 h1{
 
 	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
-  font-size: 100px;
+  font-size: 50px;
+  text-align: center;
+  padding-left: -350px;
+  color: maroon;
+
 } 
 p{font-family: Futura,Trebuchet MS,Arial,sans-serif;
-  }
+  padding-right: 300px
+}
+
+h4{font-family: futura
+  padding-right: 300px;
+  color: orange;
+}
+
+.centerblock{
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 30px;
+    text-align: center;
+    width: 300px;
+    padding-bottom: 20px;
+
+}
+
+
+body.colorful {
+  background: linear-gradient(124deg, pink, red, orange, yellow);
+  background-size: 1800% 1800%;
+  animation: rainbow 20s ease infinite;
+}
+
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  20%{background-position:100% 19%}
+  80%{background-position:0% 82%}
+}
+
+.announcement {
+    display: none;
+    color: red ;
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 6px;
+    font-family: futura
+}
+  
+
+
+ 
 
   
 
