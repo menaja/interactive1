@@ -1,0 +1,58 @@
+* {
+        margin: 0px; padding: 0px;
+}
+
+body {
+        background: white;
+}
+
+
+
+
+#container {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: white;
+        left: 300px;
+        top: 300px;
+}
+
+
+#element1 img{
+        width: 600px;
+        height: 600px;
+        position: relative;
+        top: -250px;
+        left: 150px;
+        z-index: 2;
+}
+
+#element2 img {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        bottom: 0px;
+        left: 185px;
+        z-index: 3;
+}
+
+#element3 img {
+        width: 700px;
+        height: 700px;
+        position: absolute;
+        bottom: -100px;
+        right: -300px;
+        z-index: 4;
+}
+ 
+img:hover {
+    opacity: 0.5;
+    -webkit-transition: opacity 1s;
+    transition: opacity 2s;
+}
+
+img:hover {
+        background: radial-gradient(circle, yellow , orange , red)
+        }
+
