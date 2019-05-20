@@ -1,0 +1,769 @@
+.window{
+        margin: 0px; padding: 0px;
+}
+
+body { 
+       background: turquoise;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto; 
+	align-items: center;
+}
+
+.dress-a {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-a:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-01.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#A {
+	width: 150px;
+    height: 150px;
+    clip-path: polygon(50% 0, 85% 100%, 15% 100%);
+    background: orange;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+	
+}
+
+.dress-b {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 244px;
+    z-index: 10;
+	position: relative;
+
+}
+
+.dress-b:hover {
+  	transform: rotate(5deg);
+    background-image: url(dress-a-02.png);
+    background-size: 300px;
+    width: 242px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+#B {
+	width: 150px;
+    height: 150px;
+    clip-path: polygon(0% 0%, 30% 0, 50% 30%, 30% 50%, 50% 70%, 30% 100%, 0% 100%);
+    background: green;
+    position: absolute;
+    top: 75px;
+    left: 112px;
+}
+
+
+
+.dress-c {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 244px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-c:hover {
+  	transform: rotate(5deg);
+    background-image: url(dress-a-03.png);
+    background-size: 300px;
+    width: 242px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#C {
+	width: 150px;
+    height: 150px;
+    clip-path: polygon(50% 0, 25% 5%, 10% 25%, 0 50%, 10% 75%, 25% 95%, 50% 100%);
+    background: pink;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+
+.dress-d {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 244px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-d:hover {
+  	transform: rotate(5deg);
+    background-image: url(dress-a-04.png);
+    background-size: 300px;
+    width: 242px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+#D {
+	width: 150px;
+    height: 150px;
+    clip-path: polygon(0% 1%, 0% 100%, 25% 95%, 40% 75%, 50% 50%, 40% 25%, 25% 5%);
+    background: yellow;
+    position: absolute;
+	left: 100px;
+    top: 80px;
+}
+
+.dress-e {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 244px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-e:hover {
+  	transform: rotate(5deg);
+    background-image: url(dress-a-05.png);
+    background-size: 300px;
+    width: 242px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+#E {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 50% 80%, 25% 65%, 50% 50%, 25% 35%, 50% 20%, 25% 0);
+	background: yellow;
+	position: absolute;
+    left: 100px;
+    top: 80px;
+    z-index: 10;
+}
+
+.dress-f {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 244px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-f:hover {
+  	transform: rotate(5deg);
+    background-image: url(dress-a-06.png);
+    background-size: 300px;
+    width: 242px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+#F {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(0% 0%, 0% 100%, 50% 50%, 25% 30%, 75% 0);
+	background: orange;
+	position: absolute;
+    left: 80px;
+    top: 80px;
+}
+
+.dress-g {
+	padding: 20px;
+    transition: 400ms ease all;
+    position: relative;
+    width: 300px;
+    height: 244px;
+    z-index: 10;
+}
+
+.dress-g:hover {
+  	transform: rotate(5deg);
+    background-image: url(dress-a-07.png);
+    background-size: 300px;
+    width: 242px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+#G {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(50% 0, 0 0, 0 100%, 50% 100%, 50% 50%, 25% 50%);
+	background: green;
+	position: absolute;
+	left: 100px;
+	top: 75px;
+}
+
+.dress-h {
+	padding: 20px;
+    transition: 400ms ease all;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+    transition: 400ms ease all;
+
+}
+
+.dress-h:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-08.png');
+    background-size: 300px;
+}
+
+#H {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(0 0, 25% 39%, 25% 40%, 50% 0, 50% 100%, 25% 60%, 0 100%);
+	background: pink;
+	position: absolute;
+	left: 112px;
+    top: 74px;
+}
+
+.dress-i {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-i:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-09.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#I {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(50% 0, 25% 50%, 50% 100%, 75% 50%);
+	background: pink;
+	position: absolute;
+	left: 80px;
+	top: 80px;
+}
+
+.dress-j {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-j:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-10.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#J {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(75% 0, 75% 100%, 50% 100%, 25% 80%, 25% 50%, 50% 70%);
+	background: yellow;
+	position: absolute;
+	left: 80px;
+	top: 80px;
+}
+
+.dress-k {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-k:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-11.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#K {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(0 0, 0 100%, 30% 75%, 75% 100%, 50% 50%, 75% 0, 30% 25%);
+	background: orange;
+	position: absolute;
+	left: 110px;
+	top: 80px;
+}
+
+.dress-l {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-l:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-12.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+#L { 
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(25% 0, 0 25%, 0 100%, 75% 100%, 25% 75%);
+	background: green;
+	position: absolute;
+	left: 120px;
+	top: 80px;
+
+}
+
+.dress-m {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-m:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-13.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#M {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(38% 50%, 0 0, 0 100%, 75% 100%, 75% 0);
+	background: green;
+	position: absolute;
+	left: 100px;
+	top: 80px;
+}
+
+.dress-n {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-n:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-14.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#N {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(0 0, 50% 25%, 75% 0, 75% 100%, 25% 75%, 0 100%);
+	background: pink;
+	position: absolute;
+	left: 90px;
+	top: 80px;
+}
+
+.dress-o {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-o:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-15.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#O {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(36% 0, 75% 33%, 75% 66%, 36% 100%, 0 66%, 0 33%);
+	background: yellow;
+	position: absolute;
+	left: 90px;
+	top: 70px;
+}
+
+.dress-p {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-p:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-16.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#P {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(35% 0, 75% 35%, 35% 50%, 0 100%, 0 0);
+	background: orange;
+	position: absolute;
+	left: 110px;
+	top: 70px;
+}
+
+.dress-q {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    left: 30px;
+    top: 30px;
+    position: relative;
+}
+
+.dress-q:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-17.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+#Q {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(36% 0, 0 33%, 0 66%, 36% 100%, 75% 100%, 57% 84%, 75% 66%, 75% 33%);
+	background: orange;
+	position: absolute;
+	left: 80px;
+	top: 70px;
+}
+
+.dress-r {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-r:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-18.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#R {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(35% 0, 0 0, 0 100%, 75% 100%, 35% 50%, 76% 35%);
+	background: green;
+	position: absolute;
+	left: 80px;
+	top: 70px;
+}
+
+.dress-s {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-s:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-19.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#S {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(75% 0, 25% 0, 0 33%, 25% 66%, 0 100%, 50% 100%, 75% 66%, 50% 33%);
+	background: pink;
+	position: absolute;
+	left: 80px;
+	top: 80px;
+}
+
+.dress-t {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-t:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-20.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#T {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(0% 0%, 75% 0, 75% 20%, 50% 40%, 38% 100%, 25% 40%, 0 20%);
+	background: yellow;
+	position: absolute;
+	left: 80px;
+	top: 80px;
+}
+
+.dress-u {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-u:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-21.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#U {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(0% 0%, 75% 0, 75% 75%, 50% 100%, 25% 100%, 0 75%);
+	background: yellow;
+	position: absolute;
+	left: 80px;
+	top: 80px;
+}
+
+.dress-v {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-v:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-22.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#V {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(37% 100%, 0 0, 75% 0);
+	background: orange;
+	position: absolute;
+	left: 90px;
+	top: 70px;
+}
+
+.dress-w {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-w:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-23.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#W {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(0 0, 25% 100%, 38% 50%, 50% 100%, 75% 0);
+	background: green;
+	position: absolute;
+	left: 90px;
+	top: 80px;
+}
+
+.dress-x {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.dress-x:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-24.png');
+    background-size: 300px;
+   	transition: 400ms ease all;
+  
+}
+
+#X {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(0 0, 25% 50%, 0 100%, 37% 75%, 75% 100%, 50% 50%, 75% 0, 37% 26%);
+	background: pink;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+.dress-y {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 100;
+    position: relative;
+}
+
+.dress-y:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-25.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+
+#Y {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(30% 45%, 0 0, 75% 0, 45% 45%, 38% 100%);
+	background: yellow;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+.dress-z {
+	padding: 20px;
+    transition: 400ms ease all;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+.dress-z:hover {
+    transform: rotate(5deg);
+    background-image: url('dress-a-26.png');
+    background-size: 300px;
+    width: 250px;
+    height: 254px;
+    transition: 400ms ease all;
+}
+
+#Z {
+	width: 150px;
+	height: 150px;
+	clip-path: polygon(0 0, 50% 0, 75% 0, 45% 65%, 75% 100%, 25% 100%, 0 100%, 30% 35%);
+	background: orange;
+	position: absolute;
+	left: 80px;
+	top: 80px;
+}

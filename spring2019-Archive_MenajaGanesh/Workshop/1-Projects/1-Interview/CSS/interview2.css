@@ -1,0 +1,16 @@
+body {
+    background: #fff;
+}
+#container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+body, input, textarea {
+    color: #373737;
+    font: 15px helvetica neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+body {
+    padding: 0 1em;
+}

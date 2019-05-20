@@ -1,0 +1,50 @@
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: white;
+}
+
+/* shapes */
+#circle {
+        width: 100px;
+        height: 100px;
+        background: blue;
+        border-radius: 100px;
+
+/* position the circle in the center of the flag */
+        position: absolute;
+        top: 100px;
+        left: 195px;
+}
+
+#rectangle1 {
+        width: 500px;
+        height: 100px;
+        background: orange;
+        position: absolute;
+        bottom: 200px;
+        right: 0px;
+}
+
+#rectangle2 {
+        width: 500px;
+        height: 100px;
+        background: green;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+}
+

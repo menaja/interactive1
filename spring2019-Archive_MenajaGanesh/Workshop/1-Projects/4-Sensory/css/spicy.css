@@ -1,0 +1,91 @@
+* {
+        margin: 0px; padding: 0px;
+}
+
+body {
+        background: orange;
+}
+
+
+
+
+#container {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: orange;
+        left: 300px;
+        top: 300px;
+}
+
+
+#elementOne img{
+        width: 600px;
+        height: 600px;
+        position: relative;
+        top: -250px;
+        left: 150px;
+        z-index: 2;
+}
+
+#elementTwo img {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        bottom: 0px;
+        left: 185px;
+        z-index: 3;
+}
+
+#elementThree img {
+        width: 700px;
+        height: 700px;
+        position: absolute;
+        bottom: -100px;
+        right: -300px;
+        z-index: 9999;
+        
+}
+
+.changeitem{
+        opacity: 1;
+        /*background-color: red;*/
+}
+ 
+.changeitem:hover {
+    /*background-color: red;*/
+    opacity: 0.5;
+    -webkit-transition: opacity 1s;
+    /*transition: opacity 3s;*/
+    /*background: radial-gradient(circle, yellow , orange , red);*/
+    animation: bgchange 4s;
+    animation-iteration-count: infinite;
+}
+
+/*img:hover {
+        background: radial-gradient(circle, yellow , orange , red);
+        animation-name: elementthree;
+        animation-duration: 4sec;
+        animation-fill-mode: forward;
+        animation-direction: alternate-reverse;
+        animation: elementthree 4s infinite alternate;*/
+
+/*}*/
+
+@keyframes bgchange{
+        0% {
+                background-color: orange;
+        }
+        50% {
+                background-color: yellow;
+
+        }
+        80% {
+                background-color: red;
+
+        }
+
+        100%{
+                background-color: orange;
+        }
+}
