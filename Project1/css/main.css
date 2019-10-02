@@ -1,0 +1,138 @@
+#background {
+	z-index: -1;
+	color: pink;
+}
+
+#button1 {
+	position: absolute;
+	top: 1400px;
+	left: 600px;
+}
+
+#content1 {
+	display: none;
+	width: 250px;
+	height: 350px;
+	font-family: Helvetica;
+	color: white;
+	background: black;
+	position: relative;
+	top: 0px;
+	left: 300px;
+} 
+
+.show:hover ~ #content1 {
+    display: block;
+} 
+
+#button2 {
+	position: absolute;
+	top: 800px;
+	left: 400px;
+}
+
+#content2 {
+	display: none;
+	width: 350px;
+	height: 250px;
+	font-family: Helvetica;
+	color: white;
+	background: black;
+	position: relative;
+	top: 20px;
+	left: -100px;
+} 
+
+.show:hover ~ #content2 {
+    display: block;
+}
+
+#button3 {
+	position: absolute;
+	top: 50px;
+	left: 300px;
+}
+
+#content3 {
+	display: none;
+	width: 350px;
+	height: 100px;
+	font-family: Helvetica;
+	color: white;
+	background: black;
+	position: relative;
+	top: -200px;
+	left: 600px;
+} 
+
+.show:hover ~ #content3 {
+    display: block;
+}
+
+#button4 {
+	position: absolute;
+	top: 500px;
+	left: 550px;
+}
+
+#content4 {
+	display: none;
+	width: 350px;
+	height: 120px;
+	font-family: Helvetica;
+	color: white;
+	background: black;
+	position: relative;
+	top: 0px;
+	left: 300px;
+} 
+
+.show:hover ~ #content4 {
+    display: block;
+}
+
+#button5 {
+	position: absolute;
+	top: 1100px;
+	left: 850px;
+}
+
+#content5 {
+	display: none;
+	width: 350px;
+	height: 250px;
+	font-family: Helvetica;
+	color: white;
+	background: black;
+	position: relative;
+	top: 0px;
+	left: 200px;
+} 
+
+.show:hover ~ #content5 {
+    display: block;
+}
+
+#button6 {
+	position: absolute;
+	top: 1600px;
+	left: 150px;
+}
+
+#content6 {
+	display: none;
+	width: 350px;
+	height: 250px;
+	font-family: Helvetica;
+	color: white;
+	background: black;
+	position: relative;
+	top: 0px;
+	left: 300px;
+} 
+
+.show:hover ~ #content6 {
+    display: block;
+}
+
+
